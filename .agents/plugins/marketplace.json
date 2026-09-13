@@ -1,0 +1,20 @@
+{
+  "name": "real-story-ai-video-local",
+  "interface": {
+    "displayName": "真实故事 AI 短视频插件"
+  },
+  "plugins": [
+    {
+      "name": "real-story-ai-video",
+      "source": {
+        "source": "local",
+        "path": "./plugins/real-story-ai-video"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
